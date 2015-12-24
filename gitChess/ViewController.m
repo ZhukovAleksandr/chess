@@ -327,7 +327,7 @@
 
 #pragma mark - OtherMethods
 
-- (NSUInteger) supportedInterfaceOrientations {
+- (UIInterfaceOrientationMask) supportedInterfaceOrientations {
     return  UIInterfaceOrientationMaskLandscapeLeft |
     UIInterfaceOrientationMaskLandscapeRight|
     UIInterfaceOrientationMaskPortrait |
